@@ -1,14 +1,13 @@
 public class FizzBuzz {
     public String play(int number) {
 
-        if(number == 3){
-            return "Fizz";
-        } else if(number == 6)
-        {
-            return "Fizz";
-        }
+        if (number % 3 == 0) {
 
-        return toString(number);
+            return "Fizz";
+        } else {
+
+            return toString(number);
+        }
     }
 
     private String toString(int number) {
