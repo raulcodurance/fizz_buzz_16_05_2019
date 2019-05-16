@@ -3,6 +3,9 @@ public class FizzBuzz {
 
         if(number == 3){
             return "Fizz";
+        } else if(number == 6)
+        {
+            return "Fizz";
         }
 
         return toString(number);
