@@ -1,10 +1,10 @@
 public class FizzBuzz {
     public String play(int number) {
 
-        if(number == 1){
-            return "1";
-        }else{
-            return "2";
-        }
+        return toString(number);
+    }
+
+    private String toString(int number) {
+        return String.valueOf(number);
     }
 }

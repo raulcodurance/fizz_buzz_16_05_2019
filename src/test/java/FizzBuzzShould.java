@@ -21,4 +21,11 @@ public class FizzBuzzShould {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.play(2), is("2"));
     }
+
+    @Test
+    public void return_number_4_as_string_when_fiuzzBuzz_of_4() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.play(4), is("4"));
+    }
 }
