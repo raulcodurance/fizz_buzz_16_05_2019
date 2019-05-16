@@ -51,4 +51,10 @@ public class FizzBuzzShould {
         assertThat(fizzBuzz.play(5), is("Buzz"));
 
     }
+
+    @Test
+    public void return_fizzbuzz_when_fizzBuzz_15() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.play(15), is("FizzBuzz"));
+    }
 }
