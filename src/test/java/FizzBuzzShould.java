@@ -28,4 +28,11 @@ public class FizzBuzzShould {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertThat(fizzBuzz.play(4), is("4"));
     }
+
+    @Test
+    public void return_fizz_when_fizzBuzz_3() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertThat(fizzBuzz.play(3), is("Fizz"));
+    }
 }
